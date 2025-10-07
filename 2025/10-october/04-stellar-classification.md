@@ -25,3 +25,16 @@ Return the classification of the given star.
 6. `classification(210000)` should return `"O"`.
 7. `classification(6000)` should return `"F"`.
 8. `classification(11432)` should return `"B"`.
+
+## Solution
+
+```python
+def classification(temp):
+    if temp >= 30000: return "O"
+    if temp >= 10000: return "B"
+    if temp >= 7500: return "A"
+    if temp >= 6000: return "F"
+    if temp >= 5200: return "G"
+    if temp >= 3700: return "K"
+    return "M"
+```
