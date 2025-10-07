@@ -1,6 +1,6 @@
 # Daily coding challenge
 
-This repo store my solution for the daily coding challenge from [freeCodeCamp](www.freecodecamp.org).
+This repo store my solution for the daily coding challenge from [freeCodeCamp](https://www.freecodecamp.org/learn).
 
 ## Content
 
