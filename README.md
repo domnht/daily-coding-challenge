@@ -14,3 +14,22 @@ This repo store my solution for the daily coding challenge from [freeCodeCamp](h
 7. [Space Week Day 4: Landing Spot](2025/10-october/07-landing-spot.md)
 8. [Space Week Day 5: Goldilocks Zone](2025/10-october/08-goldilocks-zone.md)
 9. [Space Week Day 6: Moon Phase](2025/10-october/09-moon-phase.md)
+
+## Code structure
+Below is the template for a python file (with simple test method):
+
+```python
+from module_test import *
+
+# Function/method
+def method_name(param_1: list, param_2: int) -> bool:
+	# TODO: Solve somethings...
+
+	# Return the result
+	return True
+
+# Do test
+do_test(function_name="method_name", should_return=True, param_1=[1, 2, 3], param_2=0)
+do_test(function_name="method_name", should_return=False, param_1=[0, 2, 4], param_2=1)
+do_test(function_name="method_name", should_return=True, param_1=[], param_2=8)
+```
