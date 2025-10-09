@@ -1,6 +1,8 @@
-# Daily coding challenge
+# Daily Coding Challenge
+[![freeCodeCamp](https://img.shields.io/badge/Freecodecamp-%23123.svg?&style=for-the-badge&logo=freecodecamp&logoColor=green)](https://freecodecamp.org/)
+[![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54 "Python")](https://www.python.org/)
 
-This repo store my solution for the daily coding challenge from [freeCodeCamp](https://www.freecodecamp.org/learn).
+This repository documents my journey through the daily coding challenges on [freeCodeCamp.org](https://www.freecodecamp.org/learn/). It includes both the problem statements and my personal solutions, primarily written in Python. The goal is to consistently practice problem-solving and learn something new every day.
 
 ## Content
 
