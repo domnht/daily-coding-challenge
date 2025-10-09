@@ -1,3 +1,5 @@
+import inspect
+
 # ANSI escape codes for colors
 RED = "\033[91m"
 GREEN = "\033[92m"
@@ -6,7 +8,7 @@ RESET = "\033[0m"
 def do_test(function_name: str, should_return, **kwargs) -> bool:
     # Preparation
     args = ", ".join([f"{key}={value}" for key, value in kwargs.items()])
-    test_function = globals()[function_name]
+    test_function = inspect.currentframe().f_back.f_globals[function_name]
 
     # Test
     test_result = test_function(**kwargs)
