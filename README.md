@@ -12,3 +12,5 @@ This repo store my solution for the daily coding challenge from [freeCodeCamp](h
 5. [Space Week Day 2: Exoplanet Search](2025/10-october/05-exoplanet-search.md)
 6. [Space Week Day 3: Phone Home](2025/10-october/06-phone-home.md)
 7. [Space Week Day 4: Landing Spot](2025/10-october/07-landing-spot.md)
+8. [Space Week Day 5: Goldilocks Zone](2025/10-october/08-goldilocks-zone.md)
+9. [Space Week Day 6: Moon Phase](2025/10-october/09-moon-phase.md)
