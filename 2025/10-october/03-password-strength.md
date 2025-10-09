@@ -41,7 +41,7 @@ def check_strength(password: str):
         if char.isnumeric() and not has_number: has_number = True
         if char in ["!", "@", "#", "$", "%", "^", "&", "*"] and not has_special_chars: has_special_chars = True
 
-    num_of_rules = int(has_8_chars) + int(has_uppercase_letters and has_lowercase_letters) + int(hasNumber) + int(has_special_chars)
+    num_of_rules = int(has_8_chars) + int(has_uppercase_letters and has_lowercase_letters) + int(has_number) + int(has_special_chars)
     print("=> num_of_rules:", num_of_rules)
     if num_of_rules >= 4: return "strong"
     if num_of_rules >= 2: return "medium"
