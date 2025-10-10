@@ -9,6 +9,7 @@ Use a simplified lunar cycle of 28 days, divided into four equal phases:
 - `"Waxing"`: days 8 - 14
 - `"Full"`: days 15 - 21
 - `"Waning"`: days 22 - 28
+
 After day 28, the cycle repeats with day 1, a new moon.
 
 - Use `"2000-01-06"` as a reference new moon (day 1 of the cycle) to determine the phase of the given day.
