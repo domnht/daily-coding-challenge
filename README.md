@@ -16,6 +16,8 @@ This repository documents my journey through the daily coding challenges on [fre
 7. [Space Week Day 4: Landing Spot](2025/10-october/07-landing-spot.md)
 8. [Space Week Day 5: Goldilocks Zone](2025/10-october/08-goldilocks-zone.md)
 9. [Space Week Day 6: Moon Phase](2025/10-october/09-moon-phase.md)
+10. [Space Week Day 7: Launch Fuel](2025/10-october/10-launch-fuel.md)
+11. [Hex to Decimal](2025/10-october/11-hex-to-decimal.md)
 
 ## Code structure
 Below is the template for a python file (with simple test method):
