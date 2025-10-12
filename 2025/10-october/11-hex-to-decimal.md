@@ -26,7 +26,6 @@ Here's a partial conversion table:
 | ...         | ...     |
 | FF          | 255     |
 | 100         | 256     |
-|-------------|---------|
 
 - The string will only contain characters 0–9 and A–F.
 
