@@ -22,7 +22,7 @@ For example, given a payload mass of 50 kg, you would need 10 kg of fuel to lift
 ## Solution
 
 ```python
-def launch_fuel(payload):
+def launch_fuel(payload: int) -> float:
     total_fuel = 0
     current_added_fuel = -1 # Use -1 as initial value
 

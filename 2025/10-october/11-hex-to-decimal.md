@@ -40,7 +40,7 @@ Here's a partial conversion table:
 ## Solution
 
 ```python
-def hex_to_decimal(hex: str):
+def hex_to_decimal(hex: str) -> int:
     hex_chars = list(range(0, 10)) + list(["A", "B", "C", "D", "E", "F"])
     decimal_values = {}
     for i in range(0, 16):

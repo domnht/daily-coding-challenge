@@ -24,7 +24,7 @@ A binary number uses only the digits `0` and `1` to represent any number. To con
 ## Solution
 
 ```python
-def to_binary(decimal: int):
+def to_binary(decimal: int) -> str:
     binary_result = ""
     current_quotient = decimal
     while current_quotient != 0:

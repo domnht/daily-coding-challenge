@@ -1,7 +1,7 @@
 from module_test import *
 from datetime import date
 
-def moon_phase(date_string):
+def moon_phase(date_string: str) -> str:
     # Get year, month, day from given string
     yyyy = int("".join(date_string[0:4]))
     mm = int("".join(date_string[5:7]))

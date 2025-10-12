@@ -1,6 +1,6 @@
 from module_test import *
 
-def launch_fuel(payload):
+def launch_fuel(payload: int) -> float:
     total_fuel = 0
     current_added_fuel = -1 # Use -1 as initial value
 

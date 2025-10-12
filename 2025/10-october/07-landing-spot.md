@@ -31,7 +31,7 @@ Return `[0, 1]`, the indices for the `0` in the first array.
 ## Solution
 
 ```python
-def find_landing_spot(matrix) -> list:
+def find_landing_spot(matrix: list) -> list:
     min = -1
     target_i = -1
     target_j = -1

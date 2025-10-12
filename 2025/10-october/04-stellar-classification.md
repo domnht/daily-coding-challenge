@@ -29,7 +29,7 @@ Return the classification of the given star.
 ## Solution
 
 ```python
-def classification(temp):
+def classification(temp: int) -> str:
     if temp >= 30000: return "O"
     if temp >= 10000: return "B"
     if temp >= 7500: return "A"

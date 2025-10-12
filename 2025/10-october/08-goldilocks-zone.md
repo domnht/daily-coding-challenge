@@ -27,7 +27,7 @@ For example, given `1` as a mass, return `[0.95, 1.37]`.
 ```python
 from math import sqrt
 
-def goldilocks_zone(mass):
+def goldilocks_zone(mass: float) -> list:
     # Find the luminosity of the star
     luminosity = mass ** 3.5
     square_root = sqrt(luminosity)

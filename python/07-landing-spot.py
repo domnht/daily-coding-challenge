@@ -1,6 +1,6 @@
 from module_test import *
 
-def find_landing_spot(matrix) -> list:
+def find_landing_spot(matrix: list) -> list:
     min = -1
     target_i = -1
     target_j = -1

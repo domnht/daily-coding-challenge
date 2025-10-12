@@ -1,7 +1,7 @@
 from module_test import *
 from math import sqrt
 
-def goldilocks_zone(mass):
+def goldilocks_zone(mass: float) -> list:
     # Find the luminosity of the star
     luminosity = mass ** 3.5
     square_root = sqrt(luminosity)

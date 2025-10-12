@@ -1,6 +1,6 @@
 from module_test import *
 
-def to_binary(decimal: int):
+def to_binary(decimal: int) -> str:
     binary_result = ""
     current_quotient = decimal
     while current_quotient != 0:

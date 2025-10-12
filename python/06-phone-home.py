@@ -1,6 +1,6 @@
 from module_test import *
 
-def send_message(route):
+def send_message(route: list) -> float:
     num_of_salleties = len(route) - 1
     total_distance = 0
     for i in range(0, len(route)):

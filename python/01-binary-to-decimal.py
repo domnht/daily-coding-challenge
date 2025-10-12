@@ -1,6 +1,6 @@
 from module_test import *
 
-def to_decimal(binary: str):
+def to_decimal(binary: str) -> int:
     decimal_result = 0
     num_of_chars = len(binary)
     for char in binary:

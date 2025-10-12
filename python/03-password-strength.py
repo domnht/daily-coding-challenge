@@ -1,6 +1,6 @@
 from module_test import *
 
-def check_strength(password: str):
+def check_strength(password: str) -> str:
     has_8_chars = len(password) >= 8
     has_uppercase_letters = False
     has_lowercase_letters = False
@@ -13,7 +13,7 @@ def check_strength(password: str):
         if char in ["!", "@", "#", "$", "%", "^", "&", "*"] and not has_special_chars: has_special_chars = True
 
     num_of_rules = int(has_8_chars) + int(has_uppercase_letters and has_lowercase_letters) + int(has_number) + int(has_special_chars)
-    print("=> num_of_rules:", num_of_rules)
+
     if num_of_rules >= 4: return "strong"
     if num_of_rules >= 2: return "medium"
     return "weak"

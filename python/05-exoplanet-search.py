@@ -1,6 +1,6 @@
 from module_test import *
 
-def has_exoplanet(readings):
+def has_exoplanet(readings: str) -> bool:
     luminosities = {}
     luminosity_v_alue = 0
     for code in list(range(ord("0"), ord("9")+1)) + list(range(ord("A"), ord("Z")+1)):
