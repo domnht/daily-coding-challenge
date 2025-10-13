@@ -10,7 +10,12 @@ Given a string of ten digits, return the string as a phone number in this format
 ## Solution
 
 ```python
-def format_number(number):
-
-    return number
+def format_number(number: str) -> str:
+    if len(number) < 11 or not number.isnumeric(): return ""
+    return "+{0} ({1}) {2}-{3}".format(
+        number[0],
+        "".join(number[1:4]),
+        "".join(number[4:7]),
+        "".join(number[7:11])
+    )
 ```

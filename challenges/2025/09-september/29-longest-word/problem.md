@@ -13,7 +13,12 @@ Given a sentence, return the longest word in the sentence.
 ## Solution
 
 ```python
-def get_longest_word(sentence):
+def get_longest_word(sentence: str) -> str:
+    words = sentence.replace(".", "").split(" ")
+    longest_word = ""
+    for word in words:
+        if len(word) > len(longest_word):
+            longest_word = word
 
-    return sentence
+    return longest_word
 ```
