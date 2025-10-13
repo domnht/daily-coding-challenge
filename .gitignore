@@ -205,3 +205,12 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Ignore module_test.py from challenges
+/challenges/module_test.py
+
+# Ignore module_test.py from challenges/*
+challenges/**/module_test.py
+
+# Ignore macOS cache
+.DS_Store
