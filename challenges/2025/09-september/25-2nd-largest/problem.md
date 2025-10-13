@@ -1,4 +1,5 @@
 # 2nd Largest
+*September 25, 2025*
 
 Given an array, return the second largest distinct number.
 
@@ -14,6 +15,16 @@ Given an array, return the second largest distinct number.
 
 ```python
 def second_largest(arr):
-
-    return arr
+    larges_1 = arr[0]
+    larges_2 = arr[1]
+    for number in arr:
+        if number < larges_1 and larges_2 == larges_1:
+            larges_2 = number
+        if number > larges_2:
+            if number > larges_1:
+                larges_2 = larges_1
+                larges_1 = number
+            if number < larges_1:
+                larges_2 = number
+    return larges_2
 ```
