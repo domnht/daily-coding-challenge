@@ -51,6 +51,7 @@ This repository documents my journey through the daily coding challenges on [fre
 10. [Space Week Day 7: Launch Fuel](/challenges/2025/10-october/10-launch-fuel/problem.md)
 11. [Hex to Decimal](/challenges/2025/10-october/11-hex-to-decimal/problem.md)
 12. [Battle of Words](/challenges/2025/10-october/12-battle-of-words/problem.md)
+13. [24 to 12](/challenges/2025/10-october/13-24-to-12/problem.md)
 
 ## Code structure
 Below is the template for a python file (with simple test method):
