@@ -5,7 +5,8 @@
 This repository documents my journey through the daily coding challenges on [freeCodeCamp.org](https://www.freecodecamp.org/learn/). It includes both the problem statements and my personal solutions, primarily written in Python. The goal is to consistently practice problem-solving and learn something new every day.
 
 ## Content
-
+<!-- Tick mark: https://i.sstatic.net/G4dGO.png -->
+<!-- Cross mark: https://i.sstatic.net/w0Zjv.png -->
 ### September 2025
 1. [Tribonacci Sequence](/challenges/2025/09-september/01-tribonacci-sequence/problem.md)
 2. [RGB to Hex](/challenges/2025/09-september/02-rgb-to-hex/problem.md)
@@ -31,27 +32,27 @@ This repository documents my journey through the daily coding challenges on [fre
 22. [Digits vs Letters](/challenges/2025/09-september/22-digits-vs-letters/problem.md)
 23. [String Mirror](/challenges/2025/09-september/23-string-mirror/problem.md)
 24. [Perfect Square](/challenges/2025/09-september/24-perfect-square/problem.md)
-25. [2nd Largest](/challenges/2025/09-september/25-2nd-largest/problem.md)
-26. [Caught speeding](/challenges/2025/09-september/26-caught-speeding/problem.md)
-27. [Spam Detector](/challenges/2025/09-september/27-spam-detector/problem.md)
-28. [CSV Header Parser](/challenges/2025/09-september/28-csv-header-parser/problem.md)
-29. [Longest Word](/challenges/2025/09-september/29-longest-word/problem.md)
-30. [Phone Number Formatter](/challenges/2025/09-september/30-phone-number-formatter/problem.md)
+25. [2nd Largest](/challenges/2025/09-september/25-2nd-largest/problem.md) ![Tick mark](https://i.sstatic.net/G4dGO.png)
+26. [Caught speeding](/challenges/2025/09-september/26-caught-speeding/problem.md) ![Tick mark](https://i.sstatic.net/G4dGO.png)
+27. [Spam Detector](/challenges/2025/09-september/27-spam-detector/problem.md) ![Tick mark](https://i.sstatic.net/G4dGO.png)
+28. [CSV Header Parser](/challenges/2025/09-september/28-csv-header-parser/problem.md) ![Tick mark](https://i.sstatic.net/G4dGO.png)
+29. [Longest Word](/challenges/2025/09-september/29-longest-word/problem.md) ![Tick mark](https://i.sstatic.net/G4dGO.png)
+30. [Phone Number Formatter](/challenges/2025/09-september/30-phone-number-formatter/problem.md) ![Tick mark](https://i.sstatic.net/G4dGO.png)
 
 ### October 2025
-1. [Binary to Decimal](/challenges/2025/10-october/01-binary-to-decimal/problem.md)
-2. [Decimal to Binary](/challenges/2025/10-october/02-decimal-to-binary/problem.md)
-3. [P@ssw0rd Str3ngth!](/challenges/2025/10-october/03-password-strength/problem.md)
-4. [Space Week Day 1: Stellar Classification](/challenges/2025/10-october/04-stellar-classification/problem.md)
-5. [Space Week Day 2: Exoplanet Search](/challenges/2025/10-october/05-exoplanet-search/problem.md)
-6. [Space Week Day 3: Phone Home](/challenges/2025/10-october/06-phone-home/problem.md)
-7. [Space Week Day 4: Landing Spot](/challenges/2025/10-october/07-landing-spot/problem.md)
-8. [Space Week Day 5: Goldilocks Zone](/challenges/2025/10-october/08-goldilocks-zone/problem.md)
-9. [Space Week Day 6: Moon Phase](/challenges/2025/10-october/09-moon-phase/problem.md)
-10. [Space Week Day 7: Launch Fuel](/challenges/2025/10-october/10-launch-fuel/problem.md)
-11. [Hex to Decimal](/challenges/2025/10-october/11-hex-to-decimal/problem.md)
-12. [Battle of Words](/challenges/2025/10-october/12-battle-of-words/problem.md)
-13. [24 to 12](/challenges/2025/10-october/13-24-to-12/problem.md)
+1. [Binary to Decimal](/challenges/2025/10-october/01-binary-to-decimal/problem.md) ![Tick mark](https://i.sstatic.net/G4dGO.png)
+2. [Decimal to Binary](/challenges/2025/10-october/02-decimal-to-binary/problem.md) ![Tick mark](https://i.sstatic.net/G4dGO.png)
+3. [P@ssw0rd Str3ngth!](/challenges/2025/10-october/03-password-strength/problem.md) ![Tick mark](https://i.sstatic.net/G4dGO.png)
+4. [Space Week Day 1: Stellar Classification](/challenges/2025/10-october/04-stellar-classification/problem.md) ![Tick mark](https://i.sstatic.net/G4dGO.png)
+5. [Space Week Day 2: Exoplanet Search](/challenges/2025/10-october/05-exoplanet-search/problem.md) ![Tick mark](https://i.sstatic.net/G4dGO.png)
+6. [Space Week Day 3: Phone Home](/challenges/2025/10-october/06-phone-home/problem.md) ![Tick mark](https://i.sstatic.net/G4dGO.png)
+7. [Space Week Day 4: Landing Spot](/challenges/2025/10-october/07-landing-spot/problem.md) ![Tick mark](https://i.sstatic.net/G4dGO.png)
+8. [Space Week Day 5: Goldilocks Zone](/challenges/2025/10-october/08-goldilocks-zone/problem.md) ![Tick mark](https://i.sstatic.net/G4dGO.png)
+9. [Space Week Day 6: Moon Phase](/challenges/2025/10-october/09-moon-phase/problem.md) ![Tick mark](https://i.sstatic.net/G4dGO.png)
+10. [Space Week Day 7: Launch Fuel](/challenges/2025/10-october/10-launch-fuel/problem.md) ![Tick mark](https://i.sstatic.net/G4dGO.png)
+11. [Hex to Decimal](/challenges/2025/10-october/11-hex-to-decimal/problem.md) ![Tick mark](https://i.sstatic.net/G4dGO.png)
+12. [Battle of Words](/challenges/2025/10-october/12-battle-of-words/problem.md) ![Tick mark](https://i.sstatic.net/G4dGO.png)
+13. [24 to 12](/challenges/2025/10-october/13-24-to-12/problem.md) ![Tick mark](https://i.sstatic.net/G4dGO.png)
 
 ## Code structure
 Below is the template for a python file (with simple test method):
