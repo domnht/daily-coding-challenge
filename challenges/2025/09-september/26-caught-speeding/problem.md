@@ -22,5 +22,6 @@ def speeding(speeds: list, limit: int) -> list:
     if num_of_speedings == 0:
         return [0, 0]
     average_speedings = sum(speedings) / num_of_speedings
+    average_speedings = int(average_speedings) if average_speedings == int(average_speedings) else average_speedings
     return [num_of_speedings, average_speedings]
 ```
