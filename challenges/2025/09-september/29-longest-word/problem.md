@@ -1,4 +1,5 @@
 # Longest Word
+*September 29, 2025*
 
 Given a sentence, return the longest word in the sentence.
 - Ignore periods (`.`) when determining word length.

@@ -1,4 +1,5 @@
 # CSV Header Parser
+*September 28, 2025*
 
 Given the first line of a comma-separated values (CSV) file, return an array containing the headings.
 - The first line of a CSV file contains headings separated by commas.
@@ -13,7 +14,7 @@ Given the first line of a comma-separated values (CSV) file, return an array con
 ## Solution
 
 ```python
-def get_headings(csv):
-
-    return csv
+def get_headings(csv: str) -> list:
+    headings = [heading.strip() for heading in csv.split(",")]
+    return headings
 ```

@@ -1,4 +1,5 @@
 # Caught speeding
+*September 26, 2025*
 
 Given an array of numbers representing the speed at which vehicles were observed traveling, and a number representing the speed limit, return an array with two items, the number of vehicles that were speeding, followed by the average amount beyond the speed limit of those vehicles.
 
@@ -15,7 +16,11 @@ Given an array of numbers representing the speed at which vehicles were observed
 ## Solution
 
 ```python
-def speeding(speeds, limit):
-
-    return speeds
+def speeding(speeds: list, limit: int) -> list:
+    speedings = [speed - limit for speed in speeds if speed > limit]
+    num_of_speedings = len(speedings)
+    if num_of_speedings == 0:
+        return [0, 0]
+    average_speedings = sum(speedings) / num_of_speedings
+    return [num_of_speedings, average_speedings]
 ```
