@@ -33,8 +33,10 @@ This repository documents my journey through the daily coding challenges on [fre
 24. [Perfect Square](/challenges/2025/09-september/24-perfect-square/problem.md)
 25. [2nd Largest](/challenges/2025/09-september/25-2nd-largest/problem.md)
 26. [Caught speeding](/challenges/2025/09-september/26-caught-speeding/problem.md)
-27.
-28.
+27. [Spam Detector](/challenges/2025/09-september/27-spam-detector/problem.md)
+28. [CSV Header Parser](/challenges/2025/09-september/28-csv-header-parser/problem.md)
+29. [Longest Word](/challenges/2025/09-september/29-longest-word/problem.md)
+30. [Phone Number Formatter](/challenges/2025/09-september/30-phone-number-formatter/problem.md)
 
 ### October 2025
 1. [Binary to Decimal](/challenges/2025/10-october/01-binary-to-decimal/problem.md)
