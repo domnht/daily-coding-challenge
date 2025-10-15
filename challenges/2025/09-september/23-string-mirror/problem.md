@@ -19,7 +19,8 @@ Given two strings, determine if the second string is a mirror of the first.
 ## Solution
 
 ```python
-def is_mirror(str1, str2):
-
-    return str1
+def is_mirror(str1: str, str2: str) -> bool:
+    str1_without_symbol = "".join(char for char in str1 if char.isalpha())
+    str2_without_symbol = "".join(char for char in str2 if char.isalpha())
+    return str1_without_symbol == str2_without_symbol[::-1]
 ```

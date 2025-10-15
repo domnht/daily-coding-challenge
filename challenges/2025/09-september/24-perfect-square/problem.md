@@ -18,7 +18,10 @@ Given an integer, determine if it is a perfect square.
 ## Solution
 
 ```python
-def is_perfect_square(n):
+from math import sqrt
 
-    return n
+def is_perfect_square(n):
+    if n < 0: return False
+    square_root_of_n = sqrt(n)
+    return int(square_root_of_n) == square_root_of_n
 ```
