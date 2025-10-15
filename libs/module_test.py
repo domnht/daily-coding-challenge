@@ -64,7 +64,7 @@ def do_test(function_name: str, should_return, **kwargs) -> bool:
     args = ", ".join([f"{key}={value}" for key, value in kwargs.items()])
     test_function = inspect.currentframe().f_back.f_globals[function_name]
 
-    print(f"{BG_BRIGHT_CYAN+FG_BLACK}TESTING{RESET} {BOLD}{function_name}{RESET}{FG_BRIGHT_BLACK}({args}){RESET}")
+    print(f"{BG_CYAN}TESTING{RESET} {BOLD}{function_name}{RESET}{FG_BRIGHT_BLACK}({args}){RESET}")
 
     # Test
     start_time = time.time()
